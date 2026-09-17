@@ -731,3 +731,8 @@ footer p { margin: 0; }
     transition-duration: 0.01ms !important;
   }
 }
+
+/* Certification badges extracted from the supplied certificates. */
+.credential-list > .credential-with-badge { grid-template-columns: 72px minmax(0, 1fr); align-items: center; }
+.credential-with-badge img { display: block; width: 72px; height: 72px; object-fit: contain; }
+.credential-with-badge > div { display: grid; gap: 3px; }
